@@ -26,16 +26,17 @@ export default function Home() {
   const usuarioAleatorio = 'handersonbf';
   const [comunidades, setComunidades] = React.useState([{
     id: '12802378123789378912789789123896123', 
-    title: 'Eu odeio dormir cedo',
+    title: 'Eu odeio acordar cedo',
     image: 'https://alurakut.vercel.app/capa-comunidade-01.jpg'
   }]);
   
-    const pessoasFavoritas = [
+  const pessoasFavoritas = [
     'handersonbf',
+    'triadworks',
+    'javace',
     'cmilfont',
-    'mayconrabelo',
+    'peas',
     'rafaballerini',
-    'felipefialho',
   ]
 
   return (
