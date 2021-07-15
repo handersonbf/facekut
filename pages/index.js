@@ -45,7 +45,7 @@ function ProfileRelationsBox(propriedades) {
 }
 
 export default function Home() {
-  const usuarioAleatorio = 'omariosouto';
+  const usuarioAleatorio = 'handersonbf';
   const [comunidades, setComunidades] = React.useState([]);
   // const comunidades = comunidades[0];
   // const alteradorDeComunidades/setComunidades = comunidades[1];
@@ -60,7 +60,7 @@ export default function Home() {
   // 0 - Pegar o array de dados do github 
   React.useEffect(function() {
     // GET
-    fetch('https://api.github.com/users/peas/followers')
+    fetch('https://api.github.com/users/handersonbf/followers')
     .then(function (respostaDoServidor) {
       return respostaDoServidor.json();
     })
